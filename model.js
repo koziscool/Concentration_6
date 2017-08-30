@@ -12,7 +12,7 @@ matcherModel = {
 
 	init: function( size ) {
 		this.size = size || this.size;
-		var totalPairs = Math.pow( this.size, 2);
+		var totalPairs = Math.pow( this.size, 2) / 2;
 		for( var i = 0; i < totalPairs ; i++ ) {
 			this.addPair();
 		}
